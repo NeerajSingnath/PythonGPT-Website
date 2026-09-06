@@ -57,6 +57,26 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.terminal-top span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.terminal-top span:nth-child(1) {
+  background-color: red;
+}
+
+.terminal-top span:nth-child(2) {
+  background-color: yellow;
+}
+
+.terminal-top span:nth-child(3) {
+  background-color: green;
+}
+
+
 .dot {
   width: 8px;
   height: 8px;
